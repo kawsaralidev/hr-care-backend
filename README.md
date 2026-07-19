@@ -1,40 +1,206 @@
-# HRM Application (HR Care)
+# 💼 HR Care - Human Resource Management System
 
-[Live Link](https://hrcare.netlify.app/) ||
-[Github Client](https://github.com/md-mh/hr-care-client)
+HR Care is a full-stack Human Resource Management (HRM) web application designed to simplify and automate employee management for organizations. It enables administrators to manage employee information, attendance, payroll, leave requests, announcements, and professional development, while employees can access their personal dashboard and perform daily HR-related tasks efficiently.
 
+---
 
-## Project Type
-This is human resource management software also known as payroll software. Using this software, a company can manage their employer details, attendance, leave, vacation, salary etc.
+# 🚀 Project Overview
 
-##  Goal 
-Create a complete HRM system for any company to maintain a database of their employers, including daily attendance, personal information, performance, monthly Employer Salary Sheet prepare, etc 
+HR Care is a complete Human Resource Management System (HRM) that helps companies efficiently manage employee information, attendance, leave requests, payroll, announcements, and performance from a centralized platform.
 
-## This Application Features
-### Employers panel:
-- Employee Registration: There will be added new employer name, nid, birthday, father's name, mother's name, department, position etc.
-- Announcement Show: Shows the announcement for the employer from the administrator
-- Daily Attendance: Employees can input daily attendance by verifying the QR code from their ID card.
-- Leave Management: Employees can applied for necessary leave
-- Course: Employees may be admitted to the required skill development course
+The application provides two separate dashboards:
 
-### Admin panel:
-- Confirm any employer by updating employer DOJ, Salary (Basic, Household, Other), etc.
-- Employees ID Card Generate: Create the employer's ID card as a PDF so that it contains information like the employer's ID, name, category, date of joining etc.
-- Attendance Management: Admin can check employees attendance by searching ID and also filter by date range.
-- Holiday management: Weekly and public holiday management
-- Leave Management: Employees can request leave. Administrators may accept or reject employee leave requests by reason.
-- Announcements: Administrators can add any announcement for staff.
-- Salary Sheet: Create Monthly Employer Salary Sheet and download Salary Sheet PDF format.
-- Regular task assignment and performance management
-- Education and professional development course system has been added
+- **Employee Panel**
+- **Administrator Panel**
 
-## Technologies used
-React, Material UI, Node, Express, Mongodb, Mongoose, Firebase, ContextAPI, React Router DOM v6, etc.
+This system minimizes manual paperwork and improves the overall HR management process.
 
-## Conclusion
-We hope that once our system is developed it will be helpful for a company to retain their employees' information.
+---
 
+# ✨ Key Features
 
+## 👨‍💼 Employee Panel
 
+- Employee Registration
+- Personal Information Management
+- Daily Attendance using QR Code
+- Leave Application System
+- Company Announcements
+- Training & Professional Development Courses
+- Personal Dashboard
 
+---
+
+## 👨‍💻 Administrator Panel
+
+- Employee Approval & Management
+- Employee Salary Configuration
+- Employee ID Card PDF Generation
+- Attendance Monitoring
+- Holiday Management
+- Leave Approval & Rejection
+- Announcement Management
+- Monthly Salary Sheet Generation
+- Payroll Management
+- Employee Performance Management
+- Course Management
+
+---
+
+# 🛠️ Technology Stack
+
+## Frontend
+
+- React.js
+- Material UI
+- React Router DOM v6
+- Context API
+
+## Backend
+
+- Node.js
+- Express.js
+
+## Database
+
+- MongoDB
+- Mongoose
+
+## Authentication
+
+- Firebase Authentication
+
+## Tools
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+# 📦 Dependencies
+
+### Frontend
+
+- React
+- React Router DOM
+- Material UI
+- Context API
+- Firebase
+- Axios
+
+### Backend
+
+- Express
+- MongoDB
+- Mongoose
+- Firebase Admin
+- JWT
+- bcrypt
+- cors
+- dotenv
+- cookie-parser
+- nodemon
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone the repository
+
+```bash
+git clone <https://github.com/kawsaralidev/hr-care-backend.git>
+```
+
+## 2️⃣ Navigate to the project folder
+
+```bash
+cd hr-care
+```
+
+## 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+## 4️⃣ Create Environment Variables
+
+Create a `.env` file in the root directory and add the required environment variables.
+
+Example:
+
+```env
+PORT=
+MONGODB_URI=
+JWT_SECRET=
+FIREBASE_API_KEY=
+FIREBASE_AUTH_DOMAIN=
+```
+
+---
+
+## 5️⃣ Run the project
+
+Frontend
+
+```bash
+npm run dev
+```
+
+Backend
+
+```bash
+npm run dev
+```
+
+---
+
+# 🎯 Main Functionalities
+
+- Employee Management
+- Attendance Tracking
+- QR Code Verification
+- Leave Management
+- Payroll Management
+- Holiday Management
+- Employee ID Card Generation
+- Performance Evaluation
+- Announcement System
+- Professional Development Course Management
+
+---
+
+## 👥 Team Collaboration
+
+This project was completed as a collaborative team project by five members. All team members actively contributed to the planning, development, testing, debugging, and deployment of the application. Responsibilities were shared throughout the development process rather than being divided into fixed roles.
+
+# 🔐 Authentication & Security
+
+- Firebase Authentication
+- JWT Authentication
+- Protected Routes
+- Role-based Authorization
+
+---
+
+# 📈 Future Improvements
+
+- Email Notification System
+- Attendance Analytics Dashboard
+- Mobile Responsive Optimization
+- Multi-language Support
+- Dark Mode
+- HR Reports & Analytics
+
+---
+
+# 👨‍💻 Author
+
+**Kawsar Ali**
+
+Full Stack Developer
+
+---
+
+⭐ If you like this project, consider giving it a star.

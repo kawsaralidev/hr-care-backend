@@ -184,23 +184,4 @@ This project was completed as a collaborative team project by five members. All 
 
 ---
 
-# 📈 Future Improvements
-
-- Email Notification System
-- Attendance Analytics Dashboard
-- Mobile Responsive Optimization
-- Multi-language Support
-- Dark Mode
-- HR Reports & Analytics
-
----
-
-# 👨‍💻 Author
-
-**Kawsar Ali**
-
-Full Stack Developer
-
----
-
 ⭐ If you like this project, consider giving it a star.
